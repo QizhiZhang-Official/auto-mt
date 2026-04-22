@@ -98,7 +98,7 @@ def gonghuifuben():
     time.sleep(1)
     
     for fuben in FUBEN_NAME:
-        fuben_list = get_text_and_loc(get_screenshot(), [(47, 352), (1035, 352), (47, 1653), (1035, 1653)])
+        fuben_list = get_text_and_loc(get_screenshot(), [(63, 470), (1380, 470), (63, 2205), (1380, 2205)])
         filtered_fuben_list = []
         for item in fuben_list:
             if item['text'] in FUBEN_NAME:
@@ -114,8 +114,8 @@ def gonghuifuben():
                 break
         if not is_found:
             connect_device("android://127.0.0.1:5037/127.0.0.1:5555")
-            swipe((1035, 1125), (1035, 885))
-            fuben_list = get_text_and_loc(get_screenshot(), [(47, 352), (1035, 352), (47, 1653), (1035, 1653)])
+            swipe((1380, 1500), (1380, 1180))
+            fuben_list = get_text_and_loc(get_screenshot(), [(63, 470), (1380, 470), (63, 2205), (1380, 2205)])
             filtered_fuben_list = []
             for item in fuben_list:
                 if item['text'] in FUBEN_NAME:
