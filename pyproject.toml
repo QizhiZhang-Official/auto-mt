@@ -7,4 +7,10 @@ requires-python = ">=3.12"
 dependencies = [
     "airtest>=1.4.3",
     "easyocr>=1.7.2",
+    "torch",
+    "torchvision",
 ]
+
+[tool.uv.sources]
+torch = { path = "torch-2.11.0+cu130-cp312-cp312-win_amd64.whl" }
+torchvision = { path = "torchvision-0.26.0+cu130-cp312-cp312-win_amd64.whl" }

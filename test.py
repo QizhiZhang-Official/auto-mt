@@ -3,7 +3,7 @@ from airtest.core.api import *
 from src.api import *
 
 
-# enter_mt()
+enter_mt()
 
 # process_activity()
 
@@ -11,10 +11,10 @@ from src.api import *
 # process_yuansu()
 
 # Complete
-# process_gonghui()
+process_gonghui()
 
 # process_jiayuan()
 
 # process_shizijun()
 
-process_daily_tiaozhan()
+# process_daily_tiaozhan()
