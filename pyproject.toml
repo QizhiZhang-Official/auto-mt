@@ -12,5 +12,5 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-torch = { path = "torch-2.11.0+cu130-cp312-cp312-win_amd64.whl" }
-torchvision = { path = "torchvision-0.26.0+cu130-cp312-cp312-win_amd64.whl" }
+torch = { path = "wheels/torch-2.11.0+cu130-cp312-cp312-win_amd64.whl" }
+torchvision = { path = "wheels/torchvision-0.26.0+cu130-cp312-cp312-win_amd64.whl" }
